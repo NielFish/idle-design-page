@@ -1,7 +1,7 @@
 # idle-design-page
 Practica final con todo el contenido acumulado.
 
-## Proyecto de Desarrollo de Videojuegos
+## Proyecto de Pagina Web "Idle Design"
 
 ### Fase 0: Configuración
 
