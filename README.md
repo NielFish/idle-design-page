@@ -28,18 +28,17 @@ Practica final con todo el contenido acumulado.
 
 ### Fase 3: Contenido
 
-- [ ] Agrega el contenido a cada página de tu sitio web.
+- [x] Agrega el contenido a cada página de tu sitio web.
 
 **Página 1:**
 
-- [ ] Agregar una barra de navegación que enlace con las 4 páginas.
+- [x] Agregar una barra de navegación que enlace con las 4 páginas.
 - [ ] Incluir un encabezado principal utilizando `<h1>`.
 - [ ] Crear 3 secciones de texto con encabezados `<h2>`.
 - [ ] Insertar al menos una imagen en alguna de las secciones.
 
 **Página 2:**
 
-- [ ] Añadir una barra de navegación que enlace con las 4 páginas.
 - [ ] Diseñar un formulario HTML con al menos:
     - [ ] 1 conjunto de campos (por ejemplo, información personal).
     - [ ] 3 entradas (nombre, correo electrónico, contraseña).
@@ -50,13 +49,11 @@ Practica final con todo el contenido acumulado.
 
 **Página 3:**
 
-- [ ] Implementar la barra de navegación que enlace con las 4 páginas.
 - [ ] Utilizar `<h1>` para un encabezado principal.
 - [ ] Crear una lista ordenada o desordenada que contenga enlaces a otros 5 sitios web.
 
 **Página 4:**
 
-- [ ] Agregar la barra de navegación que enlace con las 4 páginas.
 - [ ] Usar `<h1>` para el encabezado principal.
 - [ ] Insertar 6 imágenes, 3 anchas y 2 abajo.
 - [ ] Añadir una etiqueta para cada imagen.
