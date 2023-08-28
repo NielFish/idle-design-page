@@ -1,0 +1,68 @@
+/* Aqui estan todos los estilos que se usan en el diseño de la pagina */
+body{
+    font-family:"Verdana",sans-serif;
+    background-color: rgb(250, 240, 230);
+    color:rgb(53, 47, 68);
+}
+
+/* Estilos de los titulos */
+h1,h2,h3,h4,h5,h6{
+    font-family:"Times New Roman",sans-serif;
+    color:rgb(92, 84, 112);
+}
+
+/* Contenedor Principal */
+.container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: auto;
+    height: 100vh;
+}
+
+/* Contenedor del sidebar */
+.sidebar{
+    grid-column: 1;
+    background-color: rgb(53, 47, 68);
+    width: 250px; /* Aqui se cambia el ancho del sidebar*/
+    height: 100%;
+}
+
+/* En este contenedor se encuentra el banner, el main y la informacion extra */
+.bigContainer{
+    grid-column: 2;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 75px 1fr; /* Aqui se cambia el tamaño del banner con respecto al main*/
+}
+
+/* Contenedor del Banner */
+.banner{
+    grid-row: 1;
+    background-color: rgb(243, 0, 101);
+
+}
+
+/* Contenedor del Main y la informacion extra */
+.mediumContainer{
+    background-color: rgb(255, 137, 137);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Contenedor del Main */
+.main {
+    flex: 4; /* Aqui se cambia el tamaño del main con respecto a la informacion extra*/
+    background-color:blue;
+    height: 100%;
+}
+
+/* Contenedor de la informacion extra */
+.extraInfo {
+    flex: 1;
+    background-color: rgb(148, 1, 1);
+    height: 100%;
+}
+
+
