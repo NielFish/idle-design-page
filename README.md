@@ -23,8 +23,8 @@ Practica final con todo el contenido acumulado.
 - [x] Crea un archivo base CSS para tu sitio web.
 - [x] Agrega los estilos que se aplican a todos los elementos de tu sitio web.
 - [x] Segmentar cada parte de tu sitio web.
-- [ ] Agrega los estilos que se aplican a elementos especificos (botones, links, etc).
-- [ ] Agrega la palette de colores al archivo CSS.
+- [x] Agrega los estilos que se aplican a elementos especificos (botones, links, etc).
+- [x] Agrega la palette de colores al archivo CSS.
 
 ### Fase 3: Contenido
 
