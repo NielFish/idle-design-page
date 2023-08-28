@@ -33,28 +33,28 @@ Practica final con todo el contenido acumulado.
 **Página 1:**
 
 - [x] Agregar una barra de navegación que enlace con las 4 páginas.
-- [ ] Incluir un encabezado principal utilizando `<h1>`.
-- [ ] Crear 3 secciones de texto con encabezados `<h2>`.
-- [ ] Insertar al menos una imagen en alguna de las secciones.
+- [x] Incluir un encabezado principal utilizando `<h1>`.
+- [x] Crear 3 secciones de texto con encabezados `<h2>`.
+- [x] Insertar al menos una imagen en alguna de las secciones.
 
 **Página 2:**
 
-- [ ] Diseñar un formulario HTML con al menos:
-    - [ ] 1 conjunto de campos (por ejemplo, información personal).
-    - [ ] 3 entradas (nombre, correo electrónico, contraseña).
-    - [ ] 2 campos de texto (para comentarios u otras notas).
-    - [ ] 1 casilla de verificación (para aceptar términos y condiciones).
-    - [ ] 1 área de texto (para comentarios extensos).
-- [ ] Incluir un botón para enviar el formulario.
+- [x] Diseñar un formulario HTML con al menos:
+    - [x] 1 conjunto de campos (por ejemplo, información personal).
+    - [x] 3 entradas (nombre, correo electrónico, contraseña).
+    - [x] 2 campos de texto (para comentarios u otras notas).
+    - [x] 1 casilla de verificación (para aceptar términos y condiciones).
+    - [x] 1 área de texto (para comentarios extensos).
+- [x] Incluir un botón para enviar el formulario.
 
 **Página 3:**
 
-- [ ] Utilizar `<h1>` para un encabezado principal.
-- [ ] Crear una lista ordenada o desordenada que contenga enlaces a otros 5 sitios web.
+- [x] Utilizar `<h1>` para un encabezado principal.
+- [x] Crear una lista ordenada o desordenada que contenga enlaces a otros 5 sitios web.
 
 **Página 4:**
 
-- [ ] Usar `<h1>` para el encabezado principal.
+- [x] Usar `<h1>` para el encabezado principal.
 - [ ] Insertar 6 imágenes, 3 anchas y 2 abajo.
 - [ ] Añadir una etiqueta para cada imagen.
 - [ ] Configurar las imágenes de modo que, al hacer clic en ellas, se abra la fuente de esa imagen en una nueva ventana.

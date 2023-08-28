@@ -8,7 +8,27 @@
 <body>
 <div class="container">
     <div class="sidebar">
-
+        <div class="sidebarHeader">
+            <img src="img/LogoIdleDesign.png" alt="Logo Idle Design">
+            <h1>INDICE</h1>
+            <ul>
+                <li>
+                    <a href="idle-design.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="pag2-idle-design.html">Encuesta</a>
+                </li>
+                <li>
+                    <a href="pag3-idle-design.html">Explora</a>
+                </li>
+                <li>
+                    <a href="pag4-idle-design.html">Banco de imagenes</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebarFooter">
+            <p>Autor: Daniel Lopez</p>
+        </div>
     </div>
     <div class="bigContainer">
         <div class="banner">
@@ -17,7 +37,123 @@
         </div>
         <div class="mediumContainer">
             <div class="main">
+                <h1>Encuesta de Preferencias de Juegos:</h1>
+                <p>Por favor, tómate un momento para compartir tus preferencias de juegos con nosotros:</p>
+                <form action="UrlDelServidor" method="post">
+                    <fieldset>
+                        <legend>add vote</legend>
+                        <div>
+                            <div class="form-group">
+                                <label for="firstName">Nombre:</label>
+                                <input type="text" name="first_Name" id="firstName">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="age">Rol:</label>
+                                <select name="age" id="age">
+                                    <option value="">Seleciona tu edad:</option>
+                                    <option value="menor18">Menor de 18 años</option>
+                                    <option value="de18a25">18 - 25 años</option>
+                                    <option value="mayor25">Mayor de 25 años</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <p>¿Prefieres los juegos Triple-A o Indies?</p>
+                                <span class="m-option">
+                                        <input type="radio" name="preferencia" id="tripleA" value="tripleA">
+                                        <label for="tripleA">Triple A</label>
+                                    </span>
+                                <span class="m-option">
+                                        <input type="radio" name="preferencia" id="indie" value="indie">
+                                        <label for="indie">Indie</label>
+                                    </span>
+                                <span class="m-option">
+                                        <input type="radio" name="preferencia" id="ambos" value="ambos">
+                                        <label for="ambos">Ambos</label>
+                                    </span>
+                            </div>
+                            <div class="form-group">
+                                <label for="juegoFavorito">Juego favorito: </label>
+                                <input type="text" name="juegoFavorito" id="juegoFavorito">
+                            </div>
 
+                            <fieldset class="insideFieldset">
+                                <legend>Escoge tu(s) genero(s) favoritos: </legend>
+                                <div class="checkbox">
+                                    <div>
+                                        <input type="checkbox" name="generoFavorito" id="accion">
+                                        <label for="accion">Accion</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="generoFavorito" id="aventura">
+                                        <label for="aventura">Aventura</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="generoFavorito" id="estrategia">
+                                        <label for="estrategia">Estrategia</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="generoFavorito" id="deportes">
+                                        <label for="deportes">Deportes</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="generoFavorito" id="simulacion">
+                                        <label for="simulacion">Simulacion</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="generoFavorito" id="rol">
+                                        <label for="rol">Rol</label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="form-group">
+                                <p>Dispositivo de juego Favorito</p>
+                                <span class="m-option">
+                                        <input type="radio" name="consolaFavorita" id="pc" value="pc">
+                                        <label for="pc">PC</label>
+                                    </span>
+                                <span class="m-option">
+                                        <input type="radio" name="consolaFavorita" id="ps4" value="ps4">
+                                        <label for="ps4">PS4</label>
+                                </span>
+                                <span class="m-option">
+                                        <input type="radio" name="consolaFavorita" id="xbox" value="xbox">
+                                        <label for="xbox">Xbox</label>
+                                </span>
+                                <span class="m-option">
+                                        <input type="radio" name="consolaFavorita" id="switch" value="switch">
+                                        <label for="switch">Switch</label>
+                                </span>
+                                <span class="m-option">
+                                    <input type="radio" name="consolaFavorita" id="movil" value="movil">
+                                    <label for="movil">Movil</label>
+                                </span>
+                            </div>
+                            <div class="form-group">
+                                <label for="comments">Comentarios:</label>
+                                <textarea name="comments" id="comments" placeholder="Comentanos porque..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="fecha">Fecha:</label>
+                                <input type="date" id="fecha" name="fecha">
+                            </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" name="suscrito" id="suscrito">
+                                    <label for="suscrito">Suscribirse al boletin</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" name="acepto" id="acepto">
+                                    <label for="acepto">Aceptar terminos y condiciones</label>
+                                </div>
+                            <div class="form-group">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
             <div class="extraInfo">
 

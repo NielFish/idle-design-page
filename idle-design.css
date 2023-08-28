@@ -48,8 +48,8 @@ h1,h2,h3,h4,h5,h6{
 
 /* LOGO dentro del SideBar */
 .sidebar img{
-    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
-    height: auto; /* Mantiene la proporción original de la imagen */
+    max-width: 100%;
+    height: auto;
 }
 
 /* Contenedor del footer del SideBar */
@@ -97,6 +97,17 @@ h1,h2,h3,h4,h5,h6{
     height: 100%;
 
     border: 1px solid blue;
+}
+
+.main h2, h3{
+    font-family:"Times New Roman",sans-serif;
+    color:rgb(92, 84, 112);
+    font-size: 30px;
+}
+
+.main img{
+    max-width: 700px;
+    height: auto;
 }
 
 /* Contenedor de la informacion extra */
@@ -167,4 +178,73 @@ a:hover::before {
     height: 100%;
 }
 
+
+/*Estilos para FORMS*/
+form{
+    display:flex;
+    justify-content: center;
+}
+
+legend {
+    border: 1px solid black;
+}
+
+fieldset {
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 100%;
+    width: 450px;
+    padding: 50px;
+}
+
+.insideFieldset{
+    height: 100%;
+    width: 225px;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+textarea{
+    resize: none;
+    width: 300px;
+    height: 100px;
+}
+
+form button{
+    color: black;
+}
+
+.form-group {
+    text-align: center;
+}
+
+label{
+    display: block;
+}
+
+input {
+    margin: 2px 0 ;
+}
+
+.m-option{
+    display: inline-block ;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Espacio entre cada div */
+    margin-left: 10px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}
 
