@@ -61,8 +61,5 @@ Practica final con todo el contenido acumulado.
 - [ ] Insertar 6 imágenes, 3 anchas y 2 abajo.
 - [ ] Añadir una etiqueta para cada imagen.
 - [ ] Configurar las imágenes de modo que, al hacer clic en ellas, se abra la fuente de esa imagen en una nueva ventana.
-
-Recuerda seguir las pautas de diseño y estructura que definiste en las fases anteriores. Una vez que hayas completado estos pasos, habrás agregado el contenido necesario a cada página de tu sitio web, cumpliendo con los requisitos establecidos en la Fase 3 de tu proyecto de desarrollo de videojuegos.
-
  
 
