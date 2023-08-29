@@ -55,8 +55,8 @@ Practica final con todo el contenido acumulado.
 **Página 4:**
 
 - [x] Usar `<h1>` para el encabezado principal.
-- [ ] Insertar 6 imágenes, 3 anchas y 2 abajo.
-- [ ] Añadir una etiqueta para cada imagen.
+- [x] Insertar 6 imágenes, 3 anchas y 2 abajo.
+- [x] Añadir una etiqueta para cada imagen.
 - [ ] Configurar las imágenes de modo que, al hacer clic en ellas, se abra la fuente de esa imagen en una nueva ventana.
  
 
